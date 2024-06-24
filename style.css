@@ -1,0 +1,36 @@
+body
+{
+   background-image:url("one.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   animation:transitionIn 5s;
+}
+
+h1
+{
+   text-align:center;
+   color:azure;
+   font-weight:bold;
+}
+
+footer
+{
+  text-align:right;
+  color:bisque;
+  margin-right:10px;
+}
+
+@keyframes transitionIn
+{
+	from
+	{
+		opacity:0;
+		transform:rotateX(-10deg);
+	}
+	to
+	{
+		opacity:1;
+		transform:rotateX(0);
+	}
+}
+  
